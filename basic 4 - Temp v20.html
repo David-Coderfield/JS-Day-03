@@ -6,6 +6,7 @@
 	<style>
 		.wrapper {
 			width: 300px;
+			padding-top: 5px;
 			margin: 0 auto;
 			text-align: center;
 			background: #ddd;
@@ -41,11 +42,11 @@
 				elem.innerHTML = "It's freezing";
 				gif.src = "https://media0.giphy.com/media/theEIpQQywEy4/giphy.gif?cid=790b76113b1a0f00d39612d1606288d7a0f322a0dcdb1fd1&rid=giphy.gif";
 			}
-			else if ((c >= -5) && (c <= 10)) {
+			else if (c <= 10) {
 				elem.innerHTML = "The weather is cold";
 				gif.src = "http://giphygifs.s3.amazonaws.com/media/10N782ExqDjCLK/giphy.gif";
 			}
-			else if ((c > 10) && (c <= 25)) {
+			else if (c <= 25) {
 				elem.innerHTML = 'The weather is "moderate"';
 				gif.src = "https://media1.giphy.com/media/cSVkEGjGsWz8k/giphy.gif?cid=790b7611a6c22527280db0f4d47db333a2aef49adaee52d4&rid=giphy.gif";
 			}
