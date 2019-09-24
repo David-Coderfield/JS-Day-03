@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href=''>	
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript" charset="utf-8" async defer>
+		function averageGrades(Martin, Thomas, Klaus, Maria, David) {
+		var average = (Number(Martin) + Number(Thomas) + Number(Klaus) + Number(Maria) + Number(David))/5;
+		console.log(Martin);
+		var grade;
+
+		if (average < 60) {
+			grade = "F";
+			}
+		else if (average < 70) {
+			grade = "D";
+			}
+		else if (average < 80) {
+			grade = "C";
+			}
+		else if (average < 90) {
+			grade = "B";
+			}
+		else {
+		grade = "A";
+		}
+
+		document.write("The average grade is: " + average + "<br> This value corresponds to: " + grade);
+		}
+		
+		averageGrades(76, 85, 65, 93, 81);
+	
+
+	</script>
+
+</body>
+</html>
