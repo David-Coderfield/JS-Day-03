@@ -37,7 +37,6 @@ article.Content {
   display: flex;
   flex-wrap: wrap;
   flex-flow:  column;
-  justify-content: flex-end;
 }
 
 
@@ -83,3 +82,11 @@ footer {
     color: blue; } 
   }
 
+table td {
+  border: 1px solid #000;
+}
+
+table {
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
