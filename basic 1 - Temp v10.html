@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Temperature</title>
+</head>
+<body>
+	<script>
+		function Temp() {
+			var t = Math.floor((Math.random()*31))-5;
+			console.log(t);
+			if ((t >= -5) && (t <= 10)) {
+				document.write("The weather is cold: " + t + "°C");
+			}
+			else {
+				document.write("The weather is moderate: " + t + "°C");
+			}
+		}
+		Temp();
+	</script>
+	
+</body>
+</html>
